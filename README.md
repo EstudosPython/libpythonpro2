@@ -10,3 +10,4 @@ Topicos a seremm abordados:
 2-Virtualenv
 3-Pip
 [![Build Status](https://travis-ci.com/EstudosPython/libpythonpro2.svg?token=hxgdVvd52hyYrMw5v15K&branch=main)](https://travis-ci.com/EstudosPython/libpythonpro2)
+[![codecov](https://codecov.io/gh/EstudosPython/libpythonpro2/branch/main/graph/badge.svg?token=0FNUH7G9RR)](https://codecov.io/gh/EstudosPython/libpythonpro2)
