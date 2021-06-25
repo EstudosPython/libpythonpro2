@@ -11,5 +11,6 @@ def bucar_avatar(usuario):
     resp = requests.get(url)
     resp.json()['avatar_url']
 
+
 if __name__ == '__main__':
     print(bucar_avatar('GustavoGuesser'))
