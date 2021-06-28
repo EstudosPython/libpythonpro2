@@ -13,8 +13,8 @@ def sessao(conexao):
 
 @pytest.fixture(scope='session')
 def conexao():
-    #setup
+    # setup
     conexao_obj = Conexao()
     yield conexao_obj
-    #tear Down
+    # tear Down
     conexao_obj.fechar()

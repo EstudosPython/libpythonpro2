@@ -3,11 +3,11 @@ from time import sleep
 
 class Sessao:
     contador = 0
-    usuarios=[]
+    usuarios = []
 
     def salvar(self, usuario):
         Sessao.contador += 1
-        usuario.id =Sessao.contador
+        usuario.id = Sessao.contador
         self.usuarios.append(usuario)
 
     def listar(self):
@@ -23,6 +23,7 @@ class Sessao:
 class Conexao:
     def __init__(self):
         sleep(1)
+
     def gerar_sessao(self):
         return Sessao()
 
